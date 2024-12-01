@@ -1,1 +1,1 @@
-# bootsrap-projects
+# bootstrap-projects
