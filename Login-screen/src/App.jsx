@@ -3,14 +3,14 @@ import './App.css';
 function App() {
 
   return (
-    <div>
-      <form action="">
-        <label htmlFor="name">Username</label>
-        <input type="text" name='username' />
+    <div className='form-group'>
+      <form action="" >
+        <label htmlFor="name" className="col-sm-2 col-form-label col-form-label-sm">Username</label>
+        <input type="text" name='username' className="form-control col-md-4" placeholder='Username' />
 
-        <label htmlFor="password">Password</label>
-        <input type="password" name='password'/>
-        <button type='submit'>Submit</button>
+        <label htmlFor="password" className="col-sm-2 col-form-label col-form-label-sm">Password</label>
+        <input type="password" name='password' className="form-control col-md-4" placeholder='Password'/>
+        <button type='submit' className="form-control col-md-4 btn btn-primary" >Submit</button>
       </form>
     </div>
   )
