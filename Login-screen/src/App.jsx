@@ -1,20 +1,18 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
   return (
-    <>
     <div>
       <form action="">
         <label htmlFor="name">Username</label>
-        <input type="text" name='name'/>
+        <input type="text" name='username' />
 
-        <label htmlFor="email">Email Address</label>
-        <input type="email" />
+        <label htmlFor="password">Password</label>
+        <input type="password" name='password'/>
+        <button type='submit'>Submit</button>
       </form>
     </div>
-    </>
   )
 }
 
